@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { InterfaceCursos } from '../interface/interface.cursos';
 import { Observable } from 'rxjs';
 
@@ -10,8 +10,9 @@ import { Observable } from 'rxjs';
 export class CursoService {
 
   private url = 'http://localhost:3000/cursos';
+  private http = inject (HttpClient);
 
-  constructor(private http: HttpClient) {}
+  constructor() {}
 
   obtenerCursos(): Observable<InterfaceCursos[]> {
     return this.http.get<InterfaceCursos[]>(this.url);

@@ -1,4 +1,4 @@
-<p-table [tableStyle]="{ 'min-width': '50rem' }">
+<p-table [value]="cursos" [tableStyle]="{ 'min-width': '50rem' }">
     <ng-template pTemplate="header">
         <tr>
             <th>ID</th>
@@ -10,8 +10,8 @@
             <th>CATEGORIAS</th>
         </tr>
     </ng-template>
-    <ng-template pTemplate="body" let-product>
-        <tr *ngFor="let curso of cursos">
+    <ng-template pTemplate="body" let-curso>
+        <tr>
             <td>{{curso.id}}</td>
             <td>{{curso.nombre}}</td>
             <td>{{curso.url}}</td>
