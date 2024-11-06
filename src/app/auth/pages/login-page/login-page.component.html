@@ -1,0 +1,44 @@
+<div class="surface-ground flex min-h-screen min-w-screen">
+  <!-- Primera mitad: Formulario de Login -->
+  <div class="flex flex-column align-items-center justify-content-center w-full xl:w-6 p-4 pt-0"
+       style="position: relative; top: -50px;">
+    <img
+      src="assets/layout/images/{{layoutService.config().colorScheme === 'light' ? 'logo-dark' : 'logo-white'}}.svg"
+      alt="logo" class="mb-5 w-6rem flex-shrink-0">
+    <div>
+      <div class="text-center mb-5">
+        <div class="text-900 text-3xl font-medium mb-3">Iniciar sesión</div>
+      </div>
+
+      <div>
+        <p-toast position="top-left"/>
+        <form [formGroup]="form" (ngSubmit)="login()">
+          <label for="email1" class="block text-500 text-xl font-medium mb-2">Usuario</label>
+          <input id="email1" formControlName="usuario" type="text" placeholder="Nombre de usuario" pInputText
+                 class="w-full md:w-30rem mb-5"
+                 style="padding:1rem">
+
+          <label for="password1" class="block text-500 font-medium text-xl mb-2">Contraseña</label>
+          <p-password id="password1" formControlName="password" placeholder="Contraseña" [toggleMask]="true"
+                      styleClass="w-full mb-5"
+                      inputStyleClass="w-full p-3 md:w-30rem"></p-password>
+
+          <div class="text-center justify-content-between gap-5">
+          </div>
+          <button pButton pRipple [loading]="loading" label="Ingresar" class="w-full p-3 text-xl"
+                  type="submit"></button>
+          <div class="text-center justify-content-between mt-5 gap-5">
+            <a class="font-medium no-underline ml-2 text-right cursor-pointer"
+               style="color: var(--primary-color)">
+              ¿Olvidaste tu usuario o contraseña ?
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Segunda mitad: Imagen -->
+  <div class="hidden xl:flex w-full xl:w-6 p-0 align-items-end align-items-start"
+       style="height: 100vh; background-color: lightgray"></div>
+</div>

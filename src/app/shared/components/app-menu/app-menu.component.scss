@@ -1,0 +1,16 @@
+@import "../../../../assets/layout/styles/layout/layout.scss";
+
+.banner-container {
+  margin-top: 157px;
+  list-style-type: none;
+  text-align: center; /* centrar contenido en línea */
+}
+
+.banner-image {
+  max-width: 200px;
+  width: 100%; /* w-full equivalent */
+  margin-top: 1rem; /* mt-3 equivalent */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,94 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "nombre": "Angular Avanzado",
+      "url": "https://example.com/angular-avanzado",
+      "imagen": "https://example.com/images/angular.jpg",
+      "cantHoras": 40,
+      "precio": 200,
+      "categoria": "Desarrollo Web"
+    },
+    {
+      "id": 2,
+      "nombre": "Introducción a JavaScript",
+      "url": "https://example.com/intro-javascript",
+      "imagen": "https://example.com/images/javascript.jpg",
+      "cantHoras": 25,
+      "precio": 150,
+      "categoria": "Desarrollo Web"
+    },
+    {
+      "id": 3,
+      "nombre": "Machine Learning Básico",
+      "url": "https://example.com/ml-basico",
+      "imagen": "https://example.com/images/machine-learning.jpg",
+      "cantHoras": 60,
+      "precio": 300,
+      "categoria": "Inteligencia Artificial"
+    },
+    {
+      "id": 4,
+      "nombre": "Python para Data Science",
+      "url": "https://example.com/python-data-science",
+      "imagen": "https://example.com/images/python.jpg",
+      "cantHoras": 50,
+      "precio": 250,
+      "categoria": "Data Science"
+    },
+    {
+      "id": 5,
+      "nombre": "Fundamentos de HTML y CSS",
+      "url": "https://example.com/html-css",
+      "imagen": "https://example.com/images/html-css.jpg",
+      "cantHoras": 20,
+      "precio": 100,
+      "categoria": "Desarrollo Web"
+    },
+    {
+      "id": 6,
+      "nombre": "React desde Cero",
+      "url": "https://example.com/react-cero",
+      "imagen": "https://example.com/images/react.jpg",
+      "cantHoras": 45,
+      "precio": 220,
+      "categoria": "Desarrollo Web"
+    },
+    {
+      "id": 7,
+      "nombre": "SQL y Bases de Datos",
+      "url": "https://example.com/sql-bd",
+      "imagen": "https://example.com/images/sql.jpg",
+      "cantHoras": 35,
+      "precio": 180,
+      "categoria": "Bases de Datos"
+    },
+    {
+      "id": 8,
+      "nombre": "Kubernetes para Principiantes",
+      "url": "https://example.com/kubernetes",
+      "imagen": "https://example.com/images/kubernetes.jpg",
+      "cantHoras": 30,
+      "precio": 190,
+      "categoria": "DevOps"
+    },
+    {
+      "id": 9,
+      "nombre": "Ciberseguridad Básica",
+      "url": "https://example.com/ciberseguridad-basica",
+      "imagen": "https://example.com/images/ciberseguridad.jpg",
+      "cantHoras": 40,
+      "precio": 210,
+      "categoria": "Seguridad"
+    },
+    {
+      "id": 10,
+      "nombre": "Introducción a Big Data",
+      "url": "https://example.com/intro-big-data",
+      "imagen": "https://example.com/images/big-data.jpg",
+      "cantHoras": 55,
+      "precio": 280,
+      "categoria": "Data Science"
+    }
+  ]
+}
